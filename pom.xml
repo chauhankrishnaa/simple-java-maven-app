@@ -82,6 +82,10 @@
 		<path>/krishna/tomcat/apache-tomcat-9.0.89/webapps</path>
             </configuration>
        </plugin>
+	<plugin>
+	      <groupId>org.springframework.boot</groupId>
+        	<artifactId>spring-boot-maven-plugin</artifactId>
+	</plugin>
     </plugins>
   </build>
 </project>
